@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div style="position: absolute; right: 100px; top: 40px">
+      <h3 id="highest-mark"></h3>
+    </div>
+
+    <div style="padding: 20px">
+      <label for="name-input">Enter Your Name</label>
+      <input type="text" name="" id="name-input" />
+      <input type="submit" name="" id="submit-btn" />
+    </div>
+    <div id="question-num" style="padding: 20px"></div>
+
+    <div id="question-area">
+      <!-- <div id="mydiv" class="question-container" >
+            <h2 class="question">What is the capital of France?</h2>
+            <ul class="answer-options">
+              <li class="answer-option">
+                <input type="radio" id="answer-option-1" name="answer" value="A">
+                <label for="answer-option-1">London</label>
+              </li>
+              <li class="answer-option">
+                <input type="radio" id="answer-option-2" name="answer" value="B">
+                <label for="answer-option-2">Paris</label>
+              </li>
+              <li class="answer-option">
+                <input type="radio" id="answer-option-3" name="answer" value="C">
+                <label for="answer-option-3">Berlin</label>
+              </li>
+              <li class="answer-option">
+                <input type="radio" id="answer-option-4" name="answer" value="D">
+                <label for="answer-option-4">Madrid</label>
+              </li>
+            </ul>
+            <input type="button" name="" id="next-btn" value="Next">
+          </div> -->
+    </div>
+    <div id="result" style="position: absolute; left: 50%"></div>
+    <button
+      id="try-again-btn"
+      style="visibility: hidden; margin: 20px"
+      onClick="window.location.reload();"
+    >
+      Try Again
+    </button>
+  </body>
+  <script src="script.js"></script>
+  
+
+ 
+</html>
